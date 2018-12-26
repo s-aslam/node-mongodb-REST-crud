@@ -1,0 +1,10 @@
+{{!-- This is for passport error --}}
+{{#if error }}
+	<div class="alert alert-danger">{{error}}</div>
+{{/if}}
+{{!-- This is for our form validation error --}}
+{{#each errors }}
+	<div class="alert alert-danger">{{text}}</div>
+{{else}}
+
+{{/each}}
